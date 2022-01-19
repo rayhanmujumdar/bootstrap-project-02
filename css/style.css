@@ -1,0 +1,44 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+/* ========================
+common css all
+=========================== */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/* nav-bar section start from here */
+.head{
+    width: 100%;
+    background-image: url(../images/bannar.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: background-image scale(1.2);
+}
+.navbar{
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+.nav-item{
+    font-size: 1.2em;
+}
+/* bannar section start from here */
+.banner-content{
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.content{
+    transition: transform 0.8s;
+}
+.content:hover{
+    transform: scale(1.3);
+}
